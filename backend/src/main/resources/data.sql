@@ -16,6 +16,6 @@ INSERT INTO tb_movie (title, sub_Title, year, img_Url, synopsis, genre_id) VALUE
 INSERT INTO tb_movie (title, sub_Title, year, img_Url, synopsis, genre_id) VALUES ('O Senhor dos Anéis', 'Português', '2010', 'https://c.pxhere.com/images/07/b2/f8ed07d6f1a9c740e7703cbb99ee-1443423.jpg!d', 'Batalha lendária reinnos.', 2);
 INSERT INTO tb_movie (title, sub_Title, year, img_Url, synopsis, genre_id) VALUES ('A hora do espanto', 'Português', '1991', 'https://c.pxhere.com/images/07/b2/f8ed07d6f1a9c740e7703cbb99ee-1443423.jpg!d', 'Um assasino está a solta', 3);
 
-INSERT INTO tb_review (text, user_id, movie_id) VALUES ('Filme muito importante!', 2, 1);
-INSERT INTO tb_review (text, user_id, movie_id) VALUES ('Não consegui parar de assistir', 2, 2);
-INSERT INTO tb_review (text, user_id, movie_id) VALUES ('Não consegui terminar de assistir', 2, 3);
+INSERT INTO tb_review (text, user_id, movie_id) VALUES ('Filme muito bom!', 2, 1);
+INSERT INTO tb_review (text, user_id, movie_id) VALUES ('Filme otimo', 2, 2);
+INSERT INTO tb_review (text, user_id, movie_id) VALUES ('Filme ruim', 2, 3);
